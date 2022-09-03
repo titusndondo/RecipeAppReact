@@ -1,5 +1,18 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
+.cart-icon {
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: x-large;
+}
+
+.cart-icon:hover {
+    font-size: xx-large;
+    transform: scale(1.05);
+    background-color: rgb(238, 238, 238);
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
 .recipe-details {
   position: relative;
 }

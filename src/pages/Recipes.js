@@ -18,7 +18,7 @@ function Recipes() {
 
     return (
         <div className="my-5">
-            <div className="row mb-3 btn-sticky">
+            <div className="row mb-3">
                 <Button name="New Recipe"></Button>
             </div>
             <div className="row">

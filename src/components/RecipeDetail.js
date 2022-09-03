@@ -35,11 +35,12 @@ function RecipeDetail(props) {
                         {recipe.ingredients.map(ingredient => {
                             return <li className="ingredient-item my-2 list-unstyled">
                                 <div className="d-flex d-flex-row justify-content-between">
-                                    <p className="ingredient-name">
-                                        {ingredient.name}
-                                    </p>
-                                    <span className="ingredient-amount">({ingredient.quantity})         
-                                        <i class="bi bi-cart-plus"></i>
+                                    <div className="ingredient-name">
+                                        {ingredient.name} 
+                                        <span><strong>({ingredient.quantity})</strong></span>
+                                    </div>
+                                    <span>
+                                        <i class="bi bi-cart-plus cart-icon"></i>
                                     </span>
                                 </div>
                                 <div>
