@@ -1,0 +1,19 @@
+.recipe-img {
+  height: 9em; 
+  width: 10em
+}
+
+.recipe-card {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+  background-color: rgb(238, 238, 238);
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card:focus {
+  border: none;
+}
